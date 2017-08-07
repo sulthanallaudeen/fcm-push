@@ -4,11 +4,10 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="Send Push Online, Firebase, Fire base, Push, Notification, Send Push Notification Online">
+<meta name="author" content="Sulthan Allaudeen">
 <link rel="icon" href="img/favicon.ico">
-<title>Theme Template for Bootstrap</title>
+<title>Send Fire Base Push Notification Online - FCM - Send Firebase Cloud Messaging</title>
 <!-- Bootstrap core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Bootstrap theme -->
@@ -46,22 +45,24 @@
     <input type="text" class="form-control" placeholder="Enter Server Key or FCM Token">
   </div>
   <div class="form-group">
-  <textarea class="form-control" >
+    <input type="text" class="form-control" placeholder="Multiple FCM Registration Token (Device token) seprated by comma (,)">
+  </div>
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="Title" id="title">
+  </div>
+  <div class="form-group">
+  <textarea class="form-control" placeholder="Enter FCM Message" id="body">
   </textarea>
   </div>
-  <div class="checkbox">
-    <label><input type="checkbox"> Remember me</label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <center>
+  <button type="button" class="btn btn-default" id="sendPush">Submit</button>
+  </center>
 </form>
 </div>
 </div>
 </div>
 </div>
 <script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/docs.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/custom.js"></script>
 </body>
 </html>
