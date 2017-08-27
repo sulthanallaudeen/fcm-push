@@ -7,6 +7,7 @@ $(document).ready(function() {
         var body = $("#body").val();
         $.post("sendPush", { key: key, to: to, title: title, body: body })
             .done(function(data) {
+                alert("Pls check console for now !!");
                 console.log(data);
             });
     });
